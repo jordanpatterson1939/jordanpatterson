@@ -4,6 +4,15 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Roboto Slab', serif;
+
+
+
+font-family: 'Baloo Da 2', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Righteous', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Kalam', cursive;
 */
 
 body,html{
@@ -11,12 +20,11 @@ body,html{
   padding: 0;
 }
 #header{
-  /*background-color: #c2ae87;*/
-  /*background-color: #ffc940;*/
+  background-color: #ffc940;
   /*background-color: #d4a120;*/
-  /*background-color: #e8ba02;/
+  /*background-color: #e8ba02;*/
   /*background-color: #bfa334;*/
-  background-color: #c2ae87;
+  /*background-color: #c2ae87;*/
   border-bottom: 1px solid #707070;
   top:0;
   position: sticky;
@@ -24,8 +32,9 @@ body,html{
   z-index: 999;
 }
 .header-text{
-  font-family: 'Roboto Mono', monospace;
-  color:#fff;
+  font-family: 'Bree Serif', serif;
+/*font-family: 'Righteous', cursive;*/
+  color:#000;
   font-weight: bold;
 }
 .sec-1-overlay{
