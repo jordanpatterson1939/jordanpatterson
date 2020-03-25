@@ -20,12 +20,25 @@ body,html{
   padding: 0;
 }
 #header{
-  background-color: #ffc940;
-  /*background-color: #d4a120;*/
-  /*background-color: #e8ba02;*/
-  /*background-color: #bfa334;*/
+  /*border-bottom: 1px solid #707070;*/
+  /*background-color: #fff;*/
   /*background-color: #c2ae87;*/
-  border-bottom: 1px solid #707070;
+  /*background-color: #ffc940;*/
+  /*background-color: #2e2a2a;*/
+  /*background-color: #255363;*/
+  /*background-color: #2d8fb3;*/
+  /*background-color: #796691;*/
+  background-color: #fff12b;
+  /*box-shadow: 9px 0px 3px #4a4a4a;*/
+}
+.header-text{
+  /*color:#fff;*/
+  color:#000;
+}
+#header{
+  height: 20vh;
+  padding-top:40px;
+  padding-bottom: 36px;
   top:0;
   position: sticky;
   overflow: hidden;
@@ -33,23 +46,20 @@ body,html{
 }
 .header-text{
   font-family: 'Bree Serif', serif;
-/*font-family: 'Righteous', cursive;*/
-  color:#000;
+  font-family: 'Righteous', cursive;
   font-weight: bold;
-}
-.sec-1-overlay{
-  background-color: rgba(213, 198, 100, 0.17);
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  text-align: right;
+  /*font-size: 25.6px;*/
+  font-size: 22.6px;
 }
 .sec-1-img-container{
-  display: inline-block;
-  position: relative;
+  padding-right:20%;
+  padding-left: 20%;
 }
 #sec-1-img{
-  display:block;
+  float: right;
+  width: 200px;
+  height: 240px;
 }
 .sec-1-txt{
   font-size:20px;
@@ -57,171 +67,128 @@ body,html{
  text-align: center;
  color:#fff;
 }
-@media only screen and (min-width: 800px){
- #sec-1-img{
-    width:250px;
-    height:260px;
-  }
-  .sec-1-overlay{
-  width:250px;
-  height:260px;
-}
-  #header{
-    height:20vh;
-    padding-top:47px;
-    padding-bottom: 36px;
-    padding-right:60px;
-    
-  }
-  .header-text{
-    text-align: right;
-    font-size: 29px;
-  }
-  .sec-1-img-container{
-     margin-left: 70%;
-  }
-  .sec-1-txt{
-  font-size:32px;
- font-family: 'Roboto Slab', serif;
- text-align: center;
- color:#fff;
-}
 
-}
-@media only screen and (min-width: 600px){
-   #sec-1-img{
-    width:250px;
-    height:260px;
-  }
-  .sec-1-overlay{
-  width:250px;
-  height:260px;
-}
-  #header{
-    height:20vh;
-    padding-top:54px;
-    padding-bottom: 38px;
-    padding-right:30px;
-  }
-  .header-text{
-    text-align: right;
-    font-size: 27px;
-  }
-  
-  .sec-1-img-container{
-    margin-left: 60%;
-  }
-   .sec-1-txt{
-    font-size: 30px;
- text-align: center;
- margin-right: 25px;
-}
-}
-@media only screen and (min-width: 582px){
-   #sec-1-img{
-    width:250px;
-    height:260px;
-  }
-  .sec-1-overlay{
-  width:250px;
-  height:260px;
-}
-  #header{
-    height:20vh;
-    padding-top:54px;
-    padding-bottom: 38px;
-    padding-right:30px;
-  }
-  .header-text{
-    text-align: right;
-    font-size: 27px;
-  }
-  
-  .sec-1-img-container{
-    margin-left: 60%;
-  }
-   .sec-1-txt{
-    font-size: 30px;
- text-align: center;
- margin-right: 25px;
-}
-}
-/*@media only screen and (min-width: 450px){
-  #sec-1-img{
-    width:180px;
-    height:160px;
-  }
-  .sec-1-overlay{
-  width:180px;
-  height:160px;
-}
-  #header{
-    height:20vh;
-    padding-top:54px;
-    padding-bottom: 48px;
-    padding-right:18px;
-  }
-  .header-text{
-    text-align: right;
-    font-size: 21px;
-  }
-  .sec-1-img-container{
-    margin-left: 17%;
-  }
-  .sec-1-txt{
-    font-size: 23px;
- text-align: center;
- margin-right: 30px;
-}
-}*/
-@media only screen and (max-width: 450px){
-  #sec-1-img{
-    width:180px;
-    height:160px;
-  }
-  .sec-1-overlay{
-  width:180px;
-  height:160px;
-}
-  #header{
-    height:20vh;
-    padding-top:54px;
-    padding-bottom: 48px;
-    padding-right:18px;
-  }
-  .header-text{
-    text-align: right;
-    font-size: 21px;
-  }
-  .sec-1-img-container{
-    margin-left: 17%;
-  }
-  .sec-1-txt{
-    font-size: 23px;
- text-align: center;
- margin-right: 30px;
-}
-}
 .section{
   padding-top:50.6px;
+  padding-bottom: 40.7px;
   height: 80vh;
 }
 #sec-1{
-  background-image: url("./images/sec-1-bg.png");
+  /*background-image: url("./images/aleks-dahlberg-WMWF9WcDBOw-unsplash.jpg");*/
+  background-image: url("./images/anqi-lu-783189-unsplash.jpg");
+  /*background-image: url("./images/sec-1-bg.png");*/
+  /*background-image: url("./images/reticentful-7K24SkQUbSw-unsplash.jpg");*/
+  
+  
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
 #sec-2{
   background-color: #444444;
 }
+#sec-3{
+  background-color: #787878;
+  height: 580px !important;
+  /*padding-bottom: 60px;*/
+}
 .sec-2-h1{
   color: #fff;
   font-family: 'Pacifico', cursive;
   text-align: center;
-  font-size: 50px;
+  font-size: 39px;
 }
 .sec-2-p{
+  margin-top:20px;
   color:#fff;
   font-family: 'Roboto Slab', serif;
-  font-size: 27px;
+  font-size: 19px;
+}
+.react{
+  background-color: #c9fffd;
+  color: #707070;
+}
+.html{
+  background-color: #9effae;
+  color: #707070;
+}
+.css{
+  background-color: #6cd6d3; 
+  color: #707070;
+}
+.javascript{
+  background-color: #8f8f8f;
+  color: #ffffff;
+}
+.golang{
+  background-color: #00ffe5;
+  color: #707070;
+}
+.python{
+  background-color: #ff88c8;
+  color: #707070;
+}
+.webdes{
+  background-color: #ffe74e;
+  color: #707070;
+}
+.sql{
+  background-color: #b16dff;
+  color: #ffffff;
+}
+.linux{
+  background-color: #5e5e5e;
+  color: #ffffff;
+}
+.skills{
+  margin-top: 16px;
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skill{
+  /*float: left;*/
+  font-family: 'Bree Serif', serif;
+  /*font-family: 'Righteous', cursive;*/
+  
+
+  font-weight: 600;
+  padding:10px 23px 10px 23px;
+  margin: 5px;
+}
+@media only screen and (min-width: 1200px){
+  .header-text{
+    /*font-size: 27px;*/
+    font-size: 24px;
+  }
+  .sec-1-txt{
+    font-size: 27px;
+  }
+  .sec-2-h1{
+    font-size: 50px;
+  }
+  .sec-2-p{
+    margin-top:35px;
+    font-size: 27px;
+  }
+  #sec-1-img{
+    width: 240px;
+  height: 280px;
+  }
+  .sec-1-img-container{
+    padding-right:30%;
+    padding-left: 30%;
+  }
+  #sec-3{
+    height:80vh !important;
+  }
+  .skills{
+    display: block;
+  }
+  .skill{
+    float: left;
+    padding:20px 38px 20px 38px;
+    margin: 28px;
+  }
 }

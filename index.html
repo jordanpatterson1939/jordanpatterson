@@ -3,6 +3,7 @@
 <head>
 	<title>Jordan Patterson</title>
 	<link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Alfa+Slab+One|Baloo+Da+2|Bree+Serif|Kalam|Patua+One|Righteous&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./static/styles.css">
 </head>
@@ -13,16 +14,23 @@
     <span class="navbar-toggler-icon"></span>
   </button> -->
   <div id="header" class="container-fluid">
-  	<p class="header-text">Jordan Patterson</p>
+  	<div class="row">
+  		<div class="col-md-4"></div>
+  		<div class="col-md-4"></div>
+  		<div class="col-md-4"><p class="header-text">Jordan Patterson</p></div>
+  	</div>
   </div>
   <div id="sec-1" class="container-fluid section">
-  	
-  		<div class="sec-1-img-container">
-  			<img id="sec-1-img" src="./static/images/portrait.jpg" class="rounded-circle">
-  			<div class="rounded-circle sec-1-overlay"></div>
+  		<div class="row">
+  			<div class="col-md-12 sec-1-img-container">
+  				<img id="sec-1-img" src="./static/images/portrait.jpg" class="img-responsive rounded-circle float-right">
+  				<!-- height="250" width="290" -->
+  				<div class="rounded-circle sec-1-overlay"></div>
+  		    </div>
   		</div>
+  		
 
-  	<div class="row" style="margin-top: 50px;">
+  	<div class="row" style="margin-top: 20px;">
   		<div class="col-md-3"></div>
   		<div class="col-md-7">
   			<p class="sec-1-txt">Web Developer/Designer</p>
@@ -34,12 +42,38 @@
   	<div class="row">
   		<div class="col-md-3"></div>
   		<div class="col-md-6">
-  			<h1 class="sec-2-h1">About</h1>
+  			<h1 class="sec-2-h1">About Me</h1>
   			<p class="sec-2-p">
   				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin libero nunc. Nunc faucibus a pellentesque sit. Tempor commodo ullamcorper a lacus vestibulum sed arcu.
   			</p>
   		</div>
   		<div class="col-md-3"></div>
+  	</div>
+  </div>
+  <div id="sec-3" class="container-fluid section">
+  	<div class="row">
+  		<div class="col-md-3"></div>
+  		<div class="col-md-6">
+  			<h1 class="sec-2-h1">Skills</h1>
+  		</div>
+  		<div class="col-md-3"></div>
+  	</div>
+  	<div class="row">
+  		<div class="col-md-2"></div>
+  		<div class="col-md-8 skills-list-container">
+  			<ul class="skills">
+  				<li class="skill react">React Js</li>
+  				<li class="skill html">HTML</li>
+  				<li class="skill css">CSS</li>
+  				<li class="skill javascript">Javascript</li>
+  				<li class="skill golang">Golang</li>
+  				<li class="skill python">Python</li>
+  				<li class="skill webdes">Web Design</li>
+  				<li class="skill sql">SQL(Postgres,MySQL)</li>
+  				<li class="skill linux">Linux</li>
+  			</ul>
+  		</div>
+  		<div class="col-md-2"></div>
   	</div>
   </div>
 </div>
