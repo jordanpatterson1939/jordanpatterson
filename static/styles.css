@@ -40,7 +40,7 @@ body{
 #header{
   height: 20vh;
   padding-top:40px;
-  padding-bottom: 36px;
+  padding-bottom: 40px;
   top:0;
   position: sticky;
   overflow: hidden;
@@ -52,7 +52,8 @@ body{
   font-weight: bold;
   text-align: right;
   /*font-size: 25.6px;*/
-  font-size: 22.6px;
+  margin-top: 30px;
+  font-size: 50.6px;
 }
 .sec-1-img-container{
   padding-right:20%;
@@ -60,18 +61,18 @@ body{
 }
 #sec-1-img{
   float: right;
-  width: 200px;
-  height: 240px;
+  width: 450px;
+  height: 490px;
 }
 .sec-1-txt{
-  font-size:20px;
+  font-size:45.4px;
  font-family: 'Roboto Slab', serif;
  text-align: center;
  color:#fff;
 }
 
 .section{
-  padding-top:40.6px;
+  padding-top:100.6px;
   padding-bottom: 40.7px;
   height: 80vh;
 }
@@ -91,36 +92,30 @@ body{
 
 #sec-3{
   background-color: #787878;
-  /*height: 580px !important;*/
-  /*padding-bottom: 60px;*/
 }
 .sec-2-h1,.sec-4-h1,.sec-3-h1{
   color: #fff;
   text-align: center;
-  font-size: 39px;
+  font-size: 90px;
 }
 .sec-2-h1{
   font-family: 'Pacifico', cursive;
 }
 .sec-3-h1{
-
 font-weight: 800;
-font-size: 43px;
 font-family: 'Patua One', cursive;
-
-
 }
 .sec-4-h1{
   font-family: 'Patua One', cursive;
   font-weight: 1000;
-  font-size: 46px;
 }
 #email-contact{
   font-family: 'Roboto', sans-serif;
   color:#ffffff;
-  font-size: 18px;
+  font-size: 50px;
   font-weight: bold;
   margin-top: 10px;
+  text-align: center;
 }
 #email{
  /* color:#cf326e;
@@ -129,10 +124,10 @@ font-family: 'Patua One', cursive;
   color:#15cbd1;
 }
 .sec-2-p{
-  margin-top:20px;
+  margin-top:44px;
   color:#fff;
   font-family: 'Roboto Slab', serif;
-  font-size: 19px;
+  font-size: 40.7px;
 }
 .react{
   background-color: #c9fffd;
@@ -171,7 +166,7 @@ font-family: 'Patua One', cursive;
   color: #ffffff;
 }
 .skills{
-  margin-top: 16px;
+  margin-top: 30px;
   list-style-type: none;
   text-align: center;
   display: flex;
@@ -182,18 +177,17 @@ font-family: 'Patua One', cursive;
   /*float: left;*/
   /*font-family: 'Bree Serif', serif;*/
   font-family: 'Righteous', cursive;
-  
-
   font-weight: 600;
-  padding:10px 23px 10px 23px;
-  margin: 5px;
+  padding:25px 38px 25px 38px;
+  margin: 18px;
+  font-size:40px;
 }
 #resume-link{
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
-  padding:10px 30px;
+  padding:25px 45px;
   border-radius: 50px;
-  font-size: 21.5px;
+  font-size: 50.5px;
   border: none;
   text-decoration: none;
   /*color: #ffffff;*/
@@ -203,28 +197,28 @@ font-family: 'Patua One', cursive;
   transition: 0.5s;
 }
 .resume-link-container{
-  margin-top: 20px;
+  margin-top: 70px;
 }
 #footer{
-  padding-top: 35px;
+  padding-top: 49px;
   background-color: #ffffff;
-  background-color: #c7c7c7;
+  /*background-color: #c7c7c7;*/
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 140px;
-  margin-top:150px;
+  height: 280px;
+  /*margin-top:150px;*/
 }
 .footer-text{
   text-align: center;
-  font-size: 19px;
+  font-size: 40px;
   font-weight: 500;
   font-family: verdana;
   /*font-family: 'Roboto Slab', serif;*/
 }
 .footer-link{
-  font-size:27px;
+  font-size:60px;
   text-decoration: none;
   color:#000;
 }
@@ -233,24 +227,18 @@ font-family: 'Patua One', cursive;
 }
 .email-container-div{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  padding:0;
+  margin-top: 40px;
 }
 .copy-btn{
   background-color: transparent;
   border:none;
-  font-size: 25px;
+  font-size: 50px;
   color:#ffffff;
 }
-@media only screen and (min-width:300px){
-  .skill{
-    padding:9px 22px 9px 22px;
-    margin: 6px;
-  }
-  #email-contact{
-    font-size: 18px;
-  }
-}
-@media only screen and (min-width: 840px){
+/*@media only screen and (min-width: 840px){
   .section{
     padding-top:35.6px;
   }
@@ -275,9 +263,7 @@ font-family: 'Patua One', cursive;
     padding-right:30%;
     padding-left: 30%;
   }
- /* #sec-3{
-    height:80vh !important;
-  }*/
+ 
   .skills{
     display: block;
     margin-top: -6px;
@@ -294,16 +280,16 @@ font-family: 'Patua One', cursive;
   margin-top: 23px;
 }
 #resume-link{
-  /*padding:10px 30px;*/
   font-size: 27px;
 }
-}
+}*/
 @media only screen and (min-width: 1200px){
   .section{
     padding-top:50.6px;
   }
   .header-text{
     font-size: 24px;
+    margin-top: 0px;
   }
   .sec-1-txt{
     font-size: 27px;
@@ -327,16 +313,24 @@ font-family: 'Patua One', cursive;
     height:80vh !important;
   }
   .skills{
+     margin-top: 0px;
     display: block;
   }
   .skill{
     float: left;
     padding:20px 38px 20px 38px;
-    margin: 28px;
+    margin: 25px;
+    font-size: 16px;
   }
   #email-contact{
   font-size: 27px;
   font-weight: bold;
+}
+.email-container-div{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .resume-link-container{
   margin-top: 35px;
@@ -344,5 +338,18 @@ font-family: 'Patua One', cursive;
 #resume-link{
   /*padding:10px 30px;*/
   font-size: 27px;
+}
+.copy-btn{
+  font-size: 27px;
+}
+#footer{
+  height: 140px;
+  padding-top: 35px;
+}
+.footer-text{
+   font-size: 19px;
+}
+.footer-link{
+  font-size:27px;
 }
 }
