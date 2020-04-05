@@ -71,7 +71,7 @@ body{
 }
 
 .section{
-  padding-top:50.6px;
+  padding-top:40.6px;
   padding-bottom: 40.7px;
   height: 80vh;
 }
@@ -241,7 +241,67 @@ font-family: 'Patua One', cursive;
   font-size: 25px;
   color:#ffffff;
 }
+@media only screen and (min-width:300px){
+  .skill{
+    padding:9px 22px 9px 22px;
+    margin: 6px;
+  }
+  #email-contact{
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 840px){
+  .section{
+    padding-top:35.6px;
+  }
+  .header-text{
+    font-size: 24px;
+  }
+  .sec-1-txt{
+    font-size: 27px;
+  }
+  .sec-2-h1,.sec-3-h1,.sec-4-h1{
+    font-size: 45px;
+  }
+  .sec-2-p{
+    margin-top:26px;
+    font-size: 20px;
+  }
+  #sec-1-img{
+    width: 200px;
+  height: 240px;
+  }
+  .sec-1-img-container{
+    padding-right:30%;
+    padding-left: 30%;
+  }
+ /* #sec-3{
+    height:80vh !important;
+  }*/
+  .skills{
+    display: block;
+    margin-top: -6px;
+  }
+  .skill{
+    float: left;
+    padding:12px 25px 12px 25px;
+  margin: 14px;
+  }
+  #email-contact{
+  font-size: 21px;
+  }
+.resume-link-container{
+  margin-top: 23px;
+}
+#resume-link{
+  /*padding:10px 30px;*/
+  font-size: 27px;
+}
+}
 @media only screen and (min-width: 1200px){
+  .section{
+    padding-top:50.6px;
+  }
   .header-text{
     font-size: 24px;
   }
