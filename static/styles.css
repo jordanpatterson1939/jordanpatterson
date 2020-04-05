@@ -238,7 +238,7 @@ font-family: 'Patua One', cursive;
 .copy-btn{
   background-color: transparent;
   border:none;
-  font-size: 19px;
+  font-size: 25px;
   color:#ffffff;
 }
 @media only screen and (min-width: 1200px){
