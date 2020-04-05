@@ -3,16 +3,18 @@
 <head>
 	<title>Jordan Patterson</title>
 	<link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Alfa+Slab+One|Baloo+Da+2|Bree+Serif|Kalam|Patua+One|Righteous&display=swap" rel="stylesheet">
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	
+	<!-- Font Awesome CDN -->
+	<script src="https://kit.fontawesome.com/f829da003b.js" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap CDN -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="./static/styles.css">
 </head>
 <body>
 <div id="page">
-	
-  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button> -->
   <div id="header" class="container-fluid">
   	<div class="row">
   		<div class="col-md-4"></div>
@@ -54,7 +56,7 @@
   	<div class="row">
   		<div class="col-md-3"></div>
   		<div class="col-md-6">
-  			<h1 class="sec-2-h1">Skills</h1>
+  			<h1 class="sec-3-h1">Skills</h1>
   		</div>
   		<div class="col-md-3"></div>
   	</div>
@@ -76,9 +78,72 @@
   		<div class="col-md-2"></div>
   	</div>
   </div>
+  <div id="sec-4" class="container-fluid section">
+  	<div class="row">
+  		<div class="col-md-4"></div>
+  		<div class="col-md-4">
+  			<h1 class="sec-4-h1">Contact</h1>
+  		</div>
+  		<div class="col-md-4"></div>
+  	</div>
+  	
+  	<div class="row">
+  		<div class="col-md-3"></div>
+  		<div class="col-md-6 text-center">
+  			<div class="email-container-div">
+  				<p id="email-contact">Email: <span id="email">jordanpatterson1939@gmail.com</span></p><button class="copy-btn" onclick="setClipboard('jordanpatterson1939@gmail.com')"><i class="far fa-copy"></i></button>
+  			</div>
+  		</div>
+  		<div class="col-md-3"></div>
+  	</div>
+
+  	<div class="row resume-link-container">
+  		<div class="col-md-2"></div>
+  		<div class="col-md-8 text-center">
+  			<a id="resume-link" class="btn-light" href="#resume">Download Resum&eacute;</a>
+  		</div>
+  		<div class="col-md-2"></div>
+  	</div>
+
+  	<div id="footer">
+  		<div class="container-fluid">
+  			<div class="row">
+  				<div class="col-md-2"></div>
+  				<div class="col-md-8">
+  					<p class="footer-text">Jordan Patterson &copy; 2020</p>
+  				</div>
+  				<div class="col-md-2"></div>
+  			</div>
+
+  			<div class="row">
+  				<div class="col-md-2"></div>
+  				<div class="col-md-8 text-center">
+  					<a class="footer-link" href="https://github.com/jordanpatterson1939" target="_blank">
+  						<i class="fab fa-github"></i>
+  					</a>
+  					<!-- <a class="footer-link"><i class="fab fa-bitbucket"></i></a> -->
+  				</div>
+  				<div class="col-md-2"></div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<input id="email-field" type="text" name="email" value="jordanpatterson1939@gmail.com" hidden>
+<script type="text/javascript">
+	function setClipboard(value) {
+    var tempInput = document.createElement("input");
+    tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+    tempInput.value = value;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+}
+</script>
 </body>
 </html>

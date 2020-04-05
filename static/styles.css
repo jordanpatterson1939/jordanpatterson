@@ -15,12 +15,15 @@ font-family: 'Alfa Slab One', cursive;
 font-family: 'Kalam', cursive;
 */
 
-body,html{
-  margin:0;
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+  /*margin:0 0 120px;*/
   padding: 0;
 }
 #header{
-  /*border-bottom: 1px solid #707070;*/
   /*background-color: #fff;*/
   /*background-color: #c2ae87;*/
   /*background-color: #ffc940;*/
@@ -29,7 +32,6 @@ body,html{
   /*background-color: #2d8fb3;*/
   /*background-color: #796691;*/
   background-color: #fff12b;
-  /*box-shadow: 9px 0px 3px #4a4a4a;*/
 }
 .header-text{
   /*color:#fff;*/
@@ -83,19 +85,48 @@ body,html{
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
-#sec-2{
+#sec-2,#sec-4{
   background-color: #444444;
 }
+
 #sec-3{
   background-color: #787878;
-  height: 580px !important;
+  /*height: 580px !important;*/
   /*padding-bottom: 60px;*/
 }
-.sec-2-h1{
+.sec-2-h1,.sec-4-h1,.sec-3-h1{
   color: #fff;
-  font-family: 'Pacifico', cursive;
   text-align: center;
   font-size: 39px;
+}
+.sec-2-h1{
+  font-family: 'Pacifico', cursive;
+}
+.sec-3-h1{
+
+font-weight: 800;
+font-size: 43px;
+font-family: 'Patua One', cursive;
+
+
+}
+.sec-4-h1{
+  font-family: 'Patua One', cursive;
+  font-weight: 1000;
+  font-size: 46px;
+}
+#email-contact{
+  font-family: 'Roboto', sans-serif;
+  color:#ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#email{
+ /* color:#cf326e;
+  color:#ff3b86;
+  color:#ffffff;*/
+  color:#15cbd1;
 }
 .sec-2-p{
   margin-top:20px;
@@ -157,15 +188,67 @@ body,html{
   padding:10px 23px 10px 23px;
   margin: 5px;
 }
+#resume-link{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  padding:10px 30px;
+  border-radius: 50px;
+  font-size: 21.5px;
+  border: none;
+  text-decoration: none;
+  /*color: #ffffff;*/
+  /*color:#000000;*/
+  color:#636363;
+  /*color: #15cbd1;*/
+  transition: 0.5s;
+}
+.resume-link-container{
+  margin-top: 20px;
+}
+#footer{
+  padding-top: 35px;
+  background-color: #ffffff;
+  background-color: #c7c7c7;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 140px;
+  margin-top:150px;
+}
+.footer-text{
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: verdana;
+  /*font-family: 'Roboto Slab', serif;*/
+}
+.footer-link{
+  font-size:27px;
+  text-decoration: none;
+  color:#000;
+}
+.footer-link:hover{
+  color:#000;
+}
+.email-container-div{
+  display: flex;
+  flex-direction: row;
+}
+.copy-btn{
+  background-color: transparent;
+  border:none;
+  font-size: 19px;
+  color:#ffffff;
+}
 @media only screen and (min-width: 1200px){
   .header-text{
-    /*font-size: 27px;*/
     font-size: 24px;
   }
   .sec-1-txt{
     font-size: 27px;
   }
-  .sec-2-h1{
+  .sec-2-h1,.sec-3-h1,.sec-4-h1{
     font-size: 50px;
   }
   .sec-2-p{
@@ -191,4 +274,15 @@ body,html{
     padding:20px 38px 20px 38px;
     margin: 28px;
   }
+  #email-contact{
+  font-size: 27px;
+  font-weight: bold;
+}
+.resume-link-container{
+  margin-top: 35px;
+}
+#resume-link{
+  /*padding:10px 30px;*/
+  font-size: 27px;
+}
 }
