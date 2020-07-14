@@ -86,12 +86,12 @@ body{
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
-#sec-2,#sec-4{
+#sec-2,#contact{
   background-color: #444444;
 }
 
 #sec-3{
-  background-color: #787878;
+  background-color:#946c99;
 }
 .sec-2-h1,.sec-4-h1,.sec-3-h1{
   color: #fff;
@@ -103,10 +103,13 @@ body{
 }
 .sec-3-h1{
 font-weight: 800;
-font-family: 'Patua One', cursive;
+/* font-family: 'Patua One', cursive; */
+/* font-family: 'Pacifico', cursive; */
+font-family: 'Roboto Mono', serif;
 }
 .sec-4-h1{
-  font-family: 'Patua One', cursive;
+  /* font-family: 'Patua One', cursive; */
+  font-family: 'Pacifico', cursive;
   font-weight: 1000;
 }
 #email-contact{
@@ -164,6 +167,13 @@ font-family: 'Patua One', cursive;
 .linux{
   background-color: #5e5e5e;
   color: #ffffff;
+}
+.contact-link{
+ color:#15cbd1;
+}
+.contact-link:hover{
+  text-decoration: none;
+  color: #15cbd1;
 }
 .skills{
   margin-top: 30px;
